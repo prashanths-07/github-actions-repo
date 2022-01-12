@@ -9,7 +9,7 @@ jobs:
 
 
         print-job2:
-                runs-on: ubuntu-latest
+                runs-on: ubuntu-18.04
                 steps:
                         - run: echo "Hello, next job is here"
                         - run: echo "keep learning 2"  
