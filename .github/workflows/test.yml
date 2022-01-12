@@ -1,7 +1,8 @@
-dfgfcghcvfgxdfcgfv
-
-
-cgfchvgjyhgb
-
-
-gfcgfcgh
+name: My first Github actions
+on: [push]
+jobs:
+        print-job:
+                runs-on: ubuntu-latest
+                steps:
+                        - run: echo "Hello, welcome to 1st yaml file"
+                        - run: echo "keep learning"  
