@@ -4,6 +4,8 @@ jobs:
         build-job:
                 runs-on: ubuntu-latest
                 steps:
+                        - run: sudo apt install openjdk-8-jdk
+                        - run: sudo apt install maven
                         - run: mvn install 
 
 
